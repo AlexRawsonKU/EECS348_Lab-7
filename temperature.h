@@ -5,7 +5,7 @@
 
 /**
  * @brief Convert temperature in Celsius to Fahrenheit
- * 
+ *
  * @param celsius Temperature in degrees Celsius
  * @return Temperature in degrees Fahrenheit
  */
@@ -13,7 +13,7 @@ float celsius_to_fahrenheit(float celsius);
 
 /**
  * @brief Convert temperature in Fahrenheit to Celsius
- * 
+ *
  * @param fahrenheit Temperature in degrees Fahrenheit
  * @return Temperature in degrees Celsius
  */
@@ -21,7 +21,7 @@ float fahrenheit_to_celsius(float fahrenheit);
 
 /**
  * @brief Convert temperature in Celsius to Kelvin
- * 
+ *
  * @param celsius Temperature in degrees Celsius
  * @return Temperature in Kelvin
  */
@@ -29,10 +29,18 @@ float celsius_to_kelvin(float celsius);
 
 /**
  * @brief Convert temperature in Kelvin to Celsius
- * 
+ *
  * @param kelvin Temperature in Kelvin
  * @return Temperature in degrees Celsius
  */
 float kelvin_to_celsius(float kelvin);
+
+/**
+ * @brief Given a temperature in Celsius return a string with an advisory
+ *
+ * @param celsius Temperature in degrees Celsius
+ * @return Static string with advisory in plain English
+ */
+const char *weather_advisory(float celsius);
 
 #endif /* __REPORT_H__ */
