@@ -6,33 +6,33 @@
 /**
  * @brief Convert temperature in Celsius to Fahrenheit
  * 
- * @param celsius
- * @return float
+ * @param celsius Temperature in degrees Celsius
+ * @return Temperature in degrees Fahrenheit
  */
 float celsius_to_fahrenheit(float celsius);
 
 /**
  * @brief Convert temperature in Fahrenheit to Celsius
  * 
- * @param fahrenheit
- * @return float
+ * @param fahrenheit Temperature in degrees Fahrenheit
+ * @return Temperature in degrees Celsius
  */
 float fahrenheit_to_celsius(float fahrenheit);
 
 /**
  * @brief Convert temperature in Celsius to Kelvin
  * 
- * @param celsius
- * @return float
+ * @param celsius Temperature in degrees Celsius
+ * @return Temperature in Kelvin
  */
 float celsius_to_kelvin(float celsius);
 
 /**
  * @brief Convert temperature in Kelvin to Celsius
  * 
- * @param celsius
- * @return float
+ * @param kelvin Temperature in Kelvin
+ * @return Temperature in degrees Celsius
  */
-float kelvin_to_celsius(float celsius);
+float kelvin_to_celsius(float kelvin);
 
 #endif /* __REPORT_H__ */
